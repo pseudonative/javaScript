@@ -1,6 +1,6 @@
 
 // 1. Attach this file -- practice.js -- to the index.html file using a <script> tag
-/* <script src="practice.js"></script> */
+
 
 // 2. In this JavaScript file, add a prompt dialog to capture input from the user and store it in a variable
 
