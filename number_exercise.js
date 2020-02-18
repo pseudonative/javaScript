@@ -1,6 +1,6 @@
 
 // 1. Attach this file -- practice.js -- to the index.html file using a <script> tag
-/* <script src="practice.js"></script> */
+
 
 // 2. In this JavaScript file, add a prompt dialog to capture input from the user and store it in a variable
 
@@ -17,16 +17,7 @@
 // 6. Add an alert dialog box that says "The string '[insert value of third variable here]' is X number of characters long." For example, if the third variable contained the string "SALLY FORTH" then the alert dialog should says "The string 'SALLY FORTH' is 11 characters long."
 
 
-
-
-
-
-
-
-
-
-
-
+// Need to add to  SuperMemo
 // 1. Attach this file -- math.js -- to the index.html file using a <script> tag
 
 // 2. Add an alert to announce the program with a message like "Let's do some math!"
@@ -62,5 +53,35 @@
 // 10. Use the document.write() method to print the message variable 
 //     to the web page. Open the finished.png file in this workspace
 //     to see what the completed output should look like
+
+
+// <script src="js/math.js"></script>
+alert('Lets do some Math!');
+var num1 = prompt('Please enter a number');
+num1 = parseFloat(num1);
+var num2 = prompt('Please enter another number');
+num2 = parseFloat(num2);
+var message = "<h1>Math with these numbers " + num1 + " and " + num2 + "</h1>";
+message += ("<br>")
+message += num1 + " + " + num2 + " = " + (num1 + num2);
+message += + ("<br>")
+message += num1 + " / " + num2 + " = " + (num1/num2);
+message += ("<br>")
+message += num1 + " - " + num2 + " = " + (num1-num2);
+message += ("<br>")
+message += num1 + " * " + num2 + " = " + (num1*num2);
+document.write(message);
+
+
+
+
+
+
+
+
+
+
+
+
 
 
